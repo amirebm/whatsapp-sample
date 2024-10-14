@@ -7,10 +7,9 @@ import {ConnectedUser} from "../shared/model/user.model";
 import {State} from "../shared/model/state.model";
 import {catchError, from, interval, Observable, of, shareReplay, Subject, switchMap} from "rxjs";
 import {fromPromise} from "rxjs/internal/observable/innerFrom";
-import {AuthModalComponent} from "./auth-modal/auth-modal.component";
+import {AuthModalComponent} from "./auth-model//auth-modal.component";
 import dayjs, {Dayjs} from "dayjs";
-import {SseService} from "../messages/service/sse.service";
-
+import {SseService} from "../message/service/sse.service";
 @Injectable({
   providedIn: 'root'
 })
