@@ -6,8 +6,7 @@ import dayjs from "dayjs";
 import {Message} from "../model/message.model";
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
 import {NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle} from "@ng-bootstrap/ng-bootstrap";
-import {SendStateDisplayComponent} from "../../messages/send-state-display/send-state-display.component";
-import { SendStateDisplayComponent_1 as SendStateDisplayComponent } from "../../message/send-state-display/send-state-display.component";
+import {SendStateDisplayComponent} from "../../message/send-state-display/send-state-display.component";
 
 @Component({
   selector: 'wac-conversation',
@@ -18,9 +17,8 @@ import { SendStateDisplayComponent_1 as SendStateDisplayComponent } from "../../
     NgbDropdownToggle,
     NgbDropdownItem,
     SendStateDisplayComponent,
-    NgbDropdownMenu,
-    SendStateDisplayComponent_1
-],
+    NgbDropdownMenu
+  ],
   templateUrl: './conversation.component.html',
   styleUrl: './conversation.component.scss'
 })

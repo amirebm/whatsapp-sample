@@ -1,6 +1,11 @@
 {
   "dependencies": {
     "dayjs": "^1.11.13",
+    "event-source-polyfill": "^1.0.31",
     "keycloak-js": "^26.0.0"
+  },
+  "devDependencies": {
+    "@types/event-source-polyfill": "^1.0.5",
+    "@types/keycloak-js": "^2.5.4"
   }
 }
