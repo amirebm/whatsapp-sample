@@ -6,9 +6,9 @@ import {Conversation, ConversationToCreate} from "./model/conversation.model";
 import {Subscription} from "rxjs";
 import {ConnectedUser} from "../shared/model/user.model";
 import {ConversationComponent} from "./conversation/conversation.component";
-import {MessageService} from "../messages/service/message.service";
+import {MessageService} from "../message/service/message.service";
 import {Message} from "./model/message.model";
-import {SseService} from "../messages/service/sse.service";
+import {SseService} from "../message/service/sse.service";
 
 @Component({
   selector: 'wac-conversations',

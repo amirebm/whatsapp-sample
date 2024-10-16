@@ -8,7 +8,7 @@ import {ToastService} from "../../shared/toast/toast.service";
 import dayjs from "dayjs";
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
 import {NgbDropdown, NgbDropdownItem, NgbDropdownMenu, NgbDropdownToggle} from "@ng-bootstrap/ng-bootstrap";
-import {SseService} from "../../messages/service/sse.service";
+import {SseService} from "../../message/service/sse.service";
 
 @Component({
   selector: 'wac-header',
